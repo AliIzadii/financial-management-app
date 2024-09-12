@@ -34,7 +34,6 @@ class _homeScreenState extends State<homeScreen> {
           child: Column(
             children: [
               searchBar(),
-              // Expanded(child: emptyWidget()),
               Expanded(
                 child: homeScreen.moneys.isEmpty
                     ? emptyWidget()
